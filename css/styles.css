@@ -202,7 +202,6 @@ img {
 
 .benefits-title {
     margin-bottom: 10px;
-
     color: var(--title-color);
     font-size: 14px;
     line-height: 1.14;
@@ -230,7 +229,6 @@ img {
 
 .section-title {
     margin-bottom: 50px;
-
     color: var(--title-color);
     font-size: 36px;
     line-height: 1.16;
@@ -260,12 +258,12 @@ img {
 }
 
 .team-bg {
-    padding-top: 0;
     background-color: var(--team-bg-color);
 }
 
-.member-img {
-    margin-bottom: 30px;
+.team-info {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .member-title {
@@ -281,7 +279,6 @@ img {
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
-    padding-bottom: 30px;
 }
 
 /* Portfolio filters */
@@ -293,7 +290,6 @@ img {
 }
 
 .filter {
-    margin-right: 8px;
     padding: 6px 22px;
     color: var(--title-color);
     background-color: var(--team-bg-color);
@@ -305,6 +301,14 @@ img {
     cursor: pointer;
     border-radius: 4px;
     border: 0;
+}
+
+.filter-item{
+    margin-right: 8px;
+}
+
+.filter-item:last-child {
+    margin-right: 0;
 }
 
 .filter:hover,
@@ -364,12 +368,12 @@ img {
 .footer {
     background-color: var(--bg-color);
     padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 
 .address {
     font-style: normal;
-    padding-bottom: 60px;
     margin-top: 20px;
 }
         
